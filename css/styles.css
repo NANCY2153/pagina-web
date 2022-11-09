@@ -1,0 +1,612 @@
+
+* {
+    margin: 0;
+
+}
+
+.contenedor-madre{
+    width:100%;
+    margin:0 auto;
+    overflow: hidden;
+
+
+}
+
+.navigationBar {
+    display: flex;
+    background-color: rgb(180, 124, 185);
+    align-items: center;
+}
+
+.navigationBar .logoAndTitle {
+    display: flex;
+    align-items: center;
+}
+
+.logoAndTitle .logo1Img {
+    height: 55px;
+    border-radius: 50%;
+}
+.logoAndTitle{
+    font-family: cursive;
+}
+.menu {
+    margin-left: auto;
+}
+.menuItems {
+    text-align: center;
+    list-style: none;
+}
+
+.menuItems li {
+    margin-right: 10px;
+    display: inline-block;
+}
+.menuItems a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#bienvenidos {
+    text-align: center;
+}
+
+.h2-sub{
+    font-family: serif;
+    color: rgb(250, 15, 191);
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+    object-fit: cover; 
+
+}
+.h2-sub{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: normal;
+    line-height: 5cm;
+    font-size: 185%;
+    background-color: rgb(209, 174, 200);
+    margin-bottom: 1cm;
+    margin-top: 1cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    border-radius: 35px 0px 35px 0px;
+    text-align: center; 
+    
+
+
+
+}
+
+
+.presentacion{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: normal;
+    font-size: 100%;
+    line-height: 1cm;
+    border:dashed 0.2em rgb(81, 51, 121);
+    margin: 0.5em 0.5em 1em 0.5em;
+    padding: 1em 1.5em;
+    height: 20em;
+    margin-bottom: 1cm;
+    margin-top: 1cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    border-right-style: double;
+    border-left-style: double;
+    border-right-style: double;
+    border-top-style: double;
+    border-bottom-style: double;
+    border-top-width: 1em;
+    border-right-width: 1em;
+    border-bottom-width: 1em;
+    border-left-width: 1em;
+    display: table-cell;
+    vertical-align: middle;
+    object-fit: cover; 
+
+
+
+}
+
+
+
+.foto-persona{
+    line-height: 1cm;
+    margin-bottom: 1cm;
+    margin-top: 1cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    width: 400px;
+    height: 400px;
+}
+
+
+.h3-eslogan{
+    font-family: cursive;
+    line-height: 1cm;
+    font-style: italic;
+    margin-bottom: 1cm;
+    margin-top: 1cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    font-size: 135%;
+}
+
+.caja-primera{
+    display: flex;
+    display: wrap;
+}
+
+
+
+
+.cv-1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: normal;
+    line-height: 3cm;
+    font-size: larger;
+    font-size: 185%;  
+    text-align: center;
+
+}
+
+
+
+
+
+.pdf-edicion iframe{
+    justify-content: center;
+    height: 150vh;
+    width: 80%;
+
+
+}
+
+
+
+.dietas-1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: normal;
+    line-height: 3cm;
+    text-align: center;
+    font-size: 2em;    
+}
+
+.algoquecomer-1{
+    font-family: monospace ;
+    letter-spacing: normal;
+    line-height: 3cm;
+    font-size: larger;
+    font-size: 1.5em;   
+    text-align: center; 
+    border-color: rgb(102, 240, 102); 
+    background-color: blanchedalmond;
+    padding-bottom: 10px;
+
+    
+}
+
+.dietasColumn .dietasGrid{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.dietasGridElement{
+    width: 40%;
+    height: 400px;
+    margin: 10px;
+    border: 3px solid black;
+    overflow:hidden;
+    position: relative;
+
+
+}
+
+.dietasGridElement img{
+    width: 100%;
+    height: 100%;
+    transition: all .3s;
+}
+
+.dietasGridElement:hover img{
+    filter:blur(2px);
+    transform: scale (1.5);
+    transition: all .3s;
+
+}
+
+.dietasGridElement::before{
+
+    content:"";
+    position:absolute;
+    width: 100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    transition: all .3s;
+
+}
+
+.dietasGridElement:hover:before{
+    background: rgba(0,0,0,0.4);
+    z-index: 10;
+    transition: all .3s;
+
+}
+
+.texto-dietas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: rgb(248, 248, 248);
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tituloDietas .parrafoDietas{
+    margin: 10px;
+    padding: 5px;
+}
+
+.tituloDietas{
+    position: relative;
+    left: 100%;
+    transition: all .3S;
+
+}
+
+.dietasGridElement:hover .tituloDietas{
+    left:0;
+    animation-delay: .3s;
+    transition: all .3s;
+
+
+}
+
+.parrafoDietas{
+    position: relative;
+    right: 100%;
+    transition-delay: all .3s;
+}
+
+.dietasGridElement:hover  .parrafoDietas{
+    right: 0;
+    transition-delay: all .3s;
+}
+
+
+
+.fq-1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: normal;
+    line-height: 3cm;
+    font-size: larger;
+    font-size: 185%;   
+    border-color: rgb(102, 240, 102);
+    text-align: center;  
+
+
+}
+
+
+.peso-1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: normal;
+    line-height: 3cm;
+    font-size: larger;
+    font-size: 185%;   
+    text-align: center; 
+    border-color: rgb(102, 240, 102); 
+    background-color: rgb(226, 162, 109);
+    margin-bottom: 1cm;
+    margin-top: 1cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    border-radius: 35px 0px 35px 0px;
+
+}
+
+.peso-2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0;
+    line-height: 1cm;
+    font-size: medium;
+    font-size: 100%;   
+    text-align: normal; 
+    list-style-type: square;
+    margin-left: 1cm;
+    margin-right: 1cm;
+
+}
+
+.fq-2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: normal;
+    line-height: 3cm;
+    font-size: larger;
+    font-size: 185%;   
+    text-align: center; 
+    border-color: rgb(102, 240, 102); 
+    background-color: rgb(207, 126, 153);  
+    margin-bottom: 1cm;
+    margin-top: 1cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    border-radius: 35px 0px 35px 0px;
+}
+
+.cal-1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0;
+    line-height: 1cm;
+    font-size: medium;
+    font-size: 100%;   
+    text-align: normal; 
+    list-style-type: square;
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+
+.fq-3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: normal;
+    line-height: 3cm;
+    font-size: larger;
+    font-size: 185%;   
+    text-align: center; 
+    border-color: rgb(102, 240, 102); 
+    background-color: rgb(216, 226, 128); 
+    margin-bottom: 1cm;
+    margin-top: 1cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    border-radius: 35px 0px 35px 0px; 
+} 
+
+.reb-1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0;
+    line-height: 1cm;
+    font-size: medium;
+    font-size: 100%;   
+    text-align: normal; 
+    list-style-type: square; 
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+
+.sel-1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: normal;
+    line-height: 3cm;
+    font-size: larger;
+    font-size: 185%;   
+    text-align: center; 
+    border-color: rgb(102, 240, 102); 
+    background-color: rgb(93, 168, 152); 
+    margin-bottom: 1cm;
+    margin-top: 1cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    border-radius: 35px 0px 35px 0px; 
+}  
+
+.tip-1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0;
+    line-height: 1cm;
+    font-size: medium;
+    font-size: 100%;   
+    text-align: normal;  
+    list-style-type: square;
+    margin-left: 1cm;
+    margin-right: 1cm;
+
+}
+
+.tip-2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0;
+    line-height: 1cm;
+    font-size: medium;
+    font-size: 100%;   
+    text-align: normal; 
+    list-style-type: square; 
+    margin-left: 1cm;
+    margin-right: 1cm;
+
+}
+
+.tip-3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0;
+    line-height: 1cm;
+    font-size: medium;
+    font-size: 100%;   
+    text-align: normal;
+    list-style-type: square; 
+    margin-left: 1cm;
+    margin-right: 1cm; 
+
+}
+
+.tip-4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0;
+    line-height: 1cm;
+    font-size: medium;
+    font-size: 100%;   
+    text-align: normal; 
+    list-style-type: square;
+    margin-left: 1cm;
+    margin-right: 1cm; 
+
+}
+
+.tip-5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0;
+    line-height: 1cm;
+    font-size: medium;
+    font-size: 100%;   
+    text-align: normal; 
+    list-style-type: square; 
+    margin-left: 1cm;
+    margin-right: 1cm;
+
+
+}
+
+.mas-1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: normal;
+    line-height: 3cm;
+    font-size: larger;
+    font-size: 155%;   
+    text-align: center; 
+    border-color: rgb(102, 240, 102); 
+    background-color: rgb(69, 198, 221);  
+    margin-bottom: 1cm;
+    margin-top: 1cm;
+    margin-left: 2cm;
+    margin-right: 2cm;
+    border-radius: 37px 2px 37px 2px;
+}   
+
+
+.ubi-1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: normal;
+    line-height: 3cm;
+    font-size: larger;
+    font-size: 185%;  
+    text-align: center; 
+
+}
+
+.contenedor-ubicación{
+    display:grid;
+    gap:45px;
+    column-gap: 45px;
+    justify-items: center;
+    grid-template-columns: 50%, 50%;
+    grid-template-columns: repeat(2, 1fr);
+
+} 
+
+
+.con-1{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: normal;
+    line-height: 3cm;
+    font-size: larger;
+    font-size: 170%; 
+    text-align: center;   
+    margin: 0;
+    margin-bottom: 1 px;
+}
+
+form .grupo{
+    width: 100%
+    
+}
+
+form .grupo{
+    margin-bottom: 15px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    text-align: center; 
+
+}
+
+form textarea{
+    min-height: 80px;
+    max-height: 70px;
+    max-width: 100%
+
+}
+
+#boton{
+    background-color: rgb(171, 146, 187);
+    padding: 20px;
+
+}
+
+#boton:hover{
+    cursor:pointer;
+
+}
+
+.tabla-1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+form{
+    width: 350px;
+    margin: auto;
+    background:rgba(243, 157, 197, 0.3);
+    padding: 10px 10px;
+    box-sizing: border-box;
+    margin-top:20px;
+    border-radius: 2px;
+    border-top: 20px;
+
+}
+
+
+
+.ubi-2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: normal;
+    line-height: 3cm;
+    font-size: smaller;
+    font-size: 150%;  
+    text-align: center;
+    
+}
+
+
+
+
+.red-social{
+
+    height: 142px; 
+    background: rgb(180, 124, 185);
+    padding: 20px;
+    text-align: center;
+    bottom: 1%;
+    width: 100%;
+    margin-top: 2cm;
+    margin-bottom: 0cm;
+
+
+}
+
+.social{
+    text-align: center;
+    padding: top 30px;
+    padding-bottom: 40px;
+    margin-bottom: 0cm;
+
+}
+
+.social li{
+    display:inline-block;
+
+}
+
+.social a{
+    padding:10px;
+}
+
+
