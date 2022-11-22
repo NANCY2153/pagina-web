@@ -101,7 +101,8 @@
     border-left-width: 1em;
     display: table-cell;
     vertical-align: middle;
-    object-fit: cover; 
+    object-fit: cover;
+    overflow: auto; 
 
 
 
@@ -136,6 +137,11 @@
     display: wrap;
 }
 
+@media only screen and (max-width: 1024px) {
+    .caja-primera {
+        flex-direction: column;
+    }
+}
 
 
 
@@ -202,6 +208,12 @@
     position: relative;
 
 
+}
+
+@media only screen and (max-width: 1024px){
+    .dietasGridElement{
+        flex-direction: column;
+    }
 }
 
 .dietasGridElement img{
@@ -492,15 +504,20 @@
 }
 
 .contenedor-ubicación{
-    display:grid;
-    gap:45px;
-    column-gap: 45px;
+    display: grid;
+    gap:45px; 
+    column-gap: 45px; 
     justify-items: center;
     grid-template-columns: 50%, 50%;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr); 
 
 } 
 
+@media only screen and (max-width: 1024px){
+    .contenedor-ubicación{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
 
 .con-1{
 
