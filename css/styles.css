@@ -29,6 +29,7 @@
 .logoAndTitle{
     font-family: cursive;
 }
+
 .menu {
     margin-left: auto;
 }
@@ -242,7 +243,7 @@
 }
 
 .dietasGridElement:hover:before{
-    background: rgba(0,0,0,0.4);
+    background: rgba(61, 59, 59, 0.4);
     z-index: 10;
     transition: all .3s;
 
@@ -254,13 +255,16 @@
     height: 100%;
     top: 0;
     left: 0;
-    color: rgb(248, 248, 248);
+    color: rgb(255, 184, 208);
     z-index: 3;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
+
+
 
 .tituloDietas .parrafoDietas{
     margin: 10px;
@@ -618,7 +622,6 @@ form{
 
 .social li{
     display:inline-block;
-
 }
 
 .social a{
