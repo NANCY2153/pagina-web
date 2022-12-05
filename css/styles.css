@@ -147,7 +147,7 @@
 
 
 .cv-1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: normal;
     line-height: 3cm;
     font-size: larger;
@@ -171,7 +171,7 @@
 
 
 .dietas-1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: normal;
     line-height: 3cm;
     text-align: center;
@@ -498,7 +498,7 @@
 
 
 .ubi-1{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: normal;
     line-height: 3cm;
     font-size: larger;
@@ -525,7 +525,7 @@
 
 .con-1{
 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: normal;
     line-height: 3cm;
     font-size: larger;
@@ -586,7 +586,7 @@ form{
 
 
 .ubi-2{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: normal;
     line-height: 3cm;
     font-size: smaller;
@@ -596,36 +596,5 @@ form{
 }
 
 
-
-
-.red-social{
-
-    height: 142px; 
-    background: rgb(180, 124, 185);
-    padding: 20px;
-    text-align: center;
-    bottom: 1%;
-    width: 100%;
-    margin-top: 2cm;
-    margin-bottom: 0cm;
-
-
-}
-
-.social{
-    text-align: center;
-    padding: top 30px;
-    padding-bottom: 40px;
-    margin-bottom: 0cm;
-
-}
-
-.social li{
-    display:inline-block;
-}
-
-.social a{
-    padding:10px;
-}
 
 
